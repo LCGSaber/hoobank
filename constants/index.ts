@@ -3,19 +3,23 @@ import { people01, people02, people03, facebook, instagram, linkedin, twitter, a
 export const navLinks = [
     {
         id: "home",
-        title: "Home",
+        title: "首页",
     },
     {
-        id: "features",
-        title: "Features",
+        id: "about",
+        title: "关于我们",
     },
     {
-        id: "product",
-        title: "Product",
+        id: "apply",
+        title: "香港学校申请",
     },
     {
-        id: "clients",
-        title: "Clients",
+        id: "recommend",
+        title: "香港名校推荐",
+    },
+    {
+        id: "contact",
+        title: "联系我们",
     },
 ];
 
@@ -73,17 +77,17 @@ export const feedback = [
 export const stats = [
     {
         id: "stats-1",
-        title: "User Active",
+        title: "Services Users",
         value: "3800+",
     },
     {
         id: "stats-2",
-        title: "Trusted by Company",
+        title: "Schools being Interfaced",
         value: "230+",
     },
     {
         id: "stats-3",
-        title: "Transaction",
+        title: "Success Cases",
         value: "$230M+",
     },
 ];

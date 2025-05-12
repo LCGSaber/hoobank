@@ -14,14 +14,27 @@
   scroll-behavior: smooth;
 }
 
+.bg-all{
+  background: #ffffff;
+}
+
+.text-special{
+  background: radial-gradient(64.18% 64.18% at 71.16% 35.69%,
+  hsl(211, 81%, 68%) 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-fill-color: transparent;
+}
+
 .text-gradient {
   background: radial-gradient(64.18% 64.18% at 71.16% 35.69%,
-      #def9fa 0.89%,
-      #bef3f5 17.23%,
-      #9dedf0 42.04%,
-      #7de7eb 55.12%,
-      #5ce1e6 71.54%,
-      #33bbcf 100%);
+      #deeafa 0.89%,
+      #c5d5f5 17.23%,
+      #a8d7f8 42.04%,
+      #86c7f2 55.12%,
+      #6aaef1 71.54%,
+      #77bcf4 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -125,4 +138,67 @@
 .white__gradient {
   background: rgba(255, 255, 255, 0.6);
   filter: blur(750px);
+}
+
+
+.app-container {
+  max-width: 1400px; /* 增加容器宽度 */
+  margin: 0 auto;
+  padding: 2rem 4rem; /* 增加左右内边距 */
+  font-family: 'Inter', sans-serif;
+}
+
+.charts-grid {
+  display: flex;
+  justify-content: center; /* 居中对齐 */
+  /*gap: 4rem;  增加图表之间的间距 */
+  flex-wrap: wrap;
+}
+
+.app-title {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  color: #333;
+}
+
+
+@media (max-width: 768px) {
+  .charts-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 480px) {
+  .charts-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+
+@layer utilities {
+  .content-auto {
+    content-visibility: auto;
+  }
+  .bg-gradient-elegant {
+    background: linear-gradient(135deg, hsl(216, 33%, 97%) 0%, #c3cfe2 100%);
+  }
+  .text-shadow {
+    text-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+  .animate-float {
+    animation: float 6s ease-in-out infinite;
+  }
+  .animate-float-delay-1 {
+    animation: float 6s ease-in-out 1s infinite;
+  }
+  .animate-float-delay-2 {
+    animation: float 6s ease-in-out 2s infinite;
+  }
+}
+
+@keyframes float {
+  0% { transform: translateY(0px); }
+  50% { transform: translateY(-15px); }
+  100% { transform: translateY(0px); }
 }

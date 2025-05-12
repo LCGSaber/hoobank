@@ -1,0 +1,125 @@
+.main-container {
+    background-color: white; /* 与图片背景色一致的绿色 */
+    color: #6babf0;
+    font-family: Arial, sans-serif;
+    padding: 5px;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    @media (max-width: 768px) {
+        padding: 10px;
+      }
+  }
+  
+  .content-container {
+    max-width: 800px;
+  }
+  
+  .title {
+    font-size: 48px;
+    margin-bottom: 2px;
+    border-bottom: 2px solid white;
+    padding-bottom: 10px;
+  }
+  
+  .gray-text {
+    color: #444;
+  }
+  
+  .blue-text {
+    color: #6babf0;
+  }
+  
+  .company-name {
+    font-size: 28px;
+    margin-bottom: 50px;
+  }
+  
+  .contact-info-container {
+    color: #444;
+  }
+  
+  .contact-title {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .contact-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .icon-location,
+  .icon-phone,
+  .icon-email {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  
+  .icon-location {
+    background-image: url(../public/assets/icons8-address.png)}
+  
+  .icon-phone {
+    background-image: url(../public/assets/icons8-phone.png)}
+  
+  .icon-email {
+    background-image: url(../public/assets/icons8-email.png)}
+  
+  .contact-text {
+    font-size: 16px;
+  }
+
+  /* 地圖頁面樣式 */
+  .main-container2{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .left-column {
+    flex: 1;
+    margin-right: 20px;
+  }
+  
+  .right-column {
+    flex: 1;
+  }
+  
+  .black-text {
+    color: #000;
+  }
+  
+  .green-text {
+    color: #00b09b;
+  }
+  
+  .sub-title {
+    font-size: 20px;
+    color: #00b09b;
+    margin-bottom: 30px;
+  }
+  .highlight-box {
+    background-color: #00b09b;
+    color: white;
+    padding: 15px;
+    margin-bottom: 20px;
+  }
+  
+  .highlight-text {
+    font-size: 16px;
+    line-height: 1.6;
+  }
+  
+  .map-image {
+    width: 100%;
+    height: auto;
+  }
+ .bg-blue-primary{
+  color: #007BFF;
+ }
