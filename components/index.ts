@@ -10,6 +10,8 @@ import Testimonials from "./Testimonials";
 import Hero from "./Hero";
 import Contact from "./Contact";
 import AboutUs from "./AboutUs";
+import ServiceSection from "./ServiceSections";
+import WorkflowSections from "./WorkflowSections";
 
 export {
     Navbar,
@@ -23,5 +25,7 @@ export {
     Testimonials,
     Hero,
     Contact,
+    ServiceSection,
+    WorkflowSections,
     AboutUs
 };

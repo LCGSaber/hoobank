@@ -13,6 +13,7 @@ import { faFaceSmile,faBookMedical,faCalendarAlt,faUsersBetweenLines, faChalkboa
 const Contact: React.FC = () => (
   <section id="about">
     <div className="main-container">
+    {/* <div className="container mx-auto px-4 sm:px-6 lg:px-8"> */}
       {/* 背景装饰元素 */}
       <BackgroundDecor />
 
