@@ -23,7 +23,7 @@ import twitter from "./twitter.svg";
 import people01 from "./people01.png";
 import people02 from "./people02.png";
 import people03 from "./people03.png";
-import zxlogos from "./zxlogo4.png";
+import zxlogos from "./zxlogo4.svg";
 import edu from "./edu.png";
 import addressPic from "./address-pic.png";
 
