@@ -1,6 +1,6 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faCheck } from '@fortawesome/free-solid-svg-icons'
+import { faBook, faCheck, faGraduationCap, faHandshake, faRocket, faUniversity } from '@fortawesome/free-solid-svg-icons'
 
 const WorkflowSection = () => {
     const workflowSteps = [
@@ -8,7 +8,8 @@ const WorkflowSection = () => {
             id: 1,
             title: "確認合作模式",
             description: "正心教育和家庭初步溝通教育理念及方向，雙方達成合作意向。同時正心教育對學生進行評估及核定，確認學生目前學術水平。",
-            icon: "fa-handshake-o",
+            // icon: "fa-handshake-o",
+            icon:faHandshake,
             iconBg: "bg-primary",
             services: [
                 "教育理念沟通",
@@ -20,7 +21,8 @@ const WorkflowSection = () => {
             id: 2,
             title: "選校及申請",
             description: "正心教育會根據學生的水平及家長對於學生教育的偏向性，在和家長充分溝通的前提下，設定選擇的學校并在家長的授權下完成各個學校的申請工作，并確定適合方便家庭的考試日程。",
-            icon: "fa-university",
+            // icon: "fa-university",
+            icon:faUniversity,
             iconBg: "bg-primary",
             services: [
                 "学校评估与推荐",
@@ -32,7 +34,8 @@ const WorkflowSection = () => {
             id: 3,
             title: "備考及應考",
             description: "正心教育給學生提供度身定制的備考方案，以全團隊全方位全天候服務備考學生，在合理時間内提升學生的學術水平以及應試表現。並在考試當天陪同學生及家長前往應考，處理考試當天相關事宜。",
-            icon: "fa-book",
+            // icon: "fa-book",
+            icon:faBook,
             iconBg: "bg-primary",
             services: [
                 "定制备考计划",
@@ -44,7 +47,8 @@ const WorkflowSection = () => {
             id: 4,
             title: "錄取及注冊",
             description: "學生在獲得相關學校錄取后，正心教育會在家長的授權下處理相關的學位注冊，校車，膳食及可能的住宿安排，幫助學生盡快的融入新環境。",
-            icon: "fa-graduation-cap",
+            // icon: "fa-graduation-cap",
+            icon:faGraduationCap,
             iconBg: "bg-primary",
             services: [
                 "录取结果跟进",
@@ -56,7 +60,8 @@ const WorkflowSection = () => {
             id: 5,
             title: "後續跟進",
             description: "在成功獲得錄取后，正心教育會繼續協助輔導學生在學校内的學習和生活，提供課后輔導，選課咨詢以及潛在的轉學申請等。我們對於高年級學生更會提供大學方向的咨詢和建議并協助學生申請到自己理想的大學及專業。",
-            icon: "fa-rocket",
+            // icon: "fa-rocket",
+            icon:faRocket,
             iconBg: "bg-thrid",
             services: [
                 "学业辅导支持",
@@ -96,7 +101,8 @@ const WorkflowSection = () => {
                                                 </div>
                                                 <div className="absolute left-1/2 transform -translate-x-1/2 z-10">
                                                     <div className={`w-12 h-12 rounded-full ${step.iconBg} text-white flex items-center justify-center shadow-lg`}>
-                                                        <i className={`fa ${step.icon} text-xl`}></i>
+                                                        {/* <i className={`fa ${step.icon} text-xl`}></i> */}
+                                                        <FontAwesomeIcon icon= {step.icon} className='text-xl'/>
                                                     </div>
                                                 </div>
                                                 <div className="md:w-1/2 md:pl-12 md:mt-0 mt-8">
@@ -126,7 +132,7 @@ const WorkflowSection = () => {
                                                 </div>
                                                 <div className="absolute left-1/2 transform -translate-x-1/2 z-10">
                                                     <div className={`w-12 h-12 rounded-full ${step.iconBg} text-white flex items-center justify-center shadow-lg`}>
-                                                        <i className={`fa ${step.icon} text-xl`}></i>
+                                                    <FontAwesomeIcon icon= {step.icon} className='text-xl'/>
                                                     </div>
                                                 </div>
                                                 <div className="md:w-1/2 md:pl-12 mb-8 md:mb-0 order-1 md:order-2">

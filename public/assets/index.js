@@ -23,9 +23,11 @@ import twitter from "./twitter.svg";
 import people01 from "./people01.png";
 import people02 from "./people02.png";
 import people03 from "./people03.png";
-import zxlogos from "./zxlogo4.svg";
+import zxlogos from "./file.svg";
 import edu from "./edu.png";
-import addressPic from "./address-pic.png";
+import addressPic from "./address-pic.svg";
+import hanji from "./logo-vertical.svg";
+import hku from "./hku-logo.svg";
 
 export {
   airbnb,
@@ -55,5 +57,7 @@ export {
   people03,
   zxlogos,
   edu,
+  hanji,
+  hku,
   addressPic,
 };

@@ -12,6 +12,7 @@ import Contact from "./Contact";
 import AboutUs from "./AboutUs";
 import ServiceSection from "./ServiceSections";
 import WorkflowSections from "./WorkflowSections";
+import ShowCase from "./ShowCase";
 
 export {
     Navbar,
@@ -27,5 +28,6 @@ export {
     Contact,
     ServiceSection,
     WorkflowSections,
+    ShowCase,
     AboutUs
 };

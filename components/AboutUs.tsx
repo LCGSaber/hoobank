@@ -8,28 +8,31 @@ import Divider from '@/components/Divider';
 import InfoCard from '@/components/InfoCard';
 import Card from '@/components/Card';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faFaceSmile,faBookMedical,faCalendarAlt,faUsersBetweenLines, faChalkboardTeacher, faUserGraduate, faUserCheck, faBookmark } from '@fortawesome/free-solid-svg-icons'
+import { faFaceSmile, faBookMedical, faCalendarAlt, faUsersBetweenLines, faChalkboardTeacher, faUserGraduate, faUserCheck, faBookmark, faBuilding, faPeopleRoof } from '@fortawesome/free-solid-svg-icons'
+import { faTeamspeak } from "@fortawesome/free-brands-svg-icons";
 
 const Contact: React.FC = () => (
   <section id="about">
     <div className="main-container">
-    {/* <div className="container mx-auto px-4 sm:px-6 lg:px-8"> */}
+      {/* <div className="container mx-auto px-4 sm:px-6 lg:px-8"> */}
       {/* 背景装饰元素 */}
       <BackgroundDecor />
 
       {/* 主容器 */}
       {/* <div className="container mx-auto px-2 py-4 relative z-10"> */}
       <div className="max-w-5xl mx-auto bg-white/90 backdrop-blur-sm rounded-2xl shadow-xl p-4 md:p-8 border border-gray-100 transition-all duration-500 hover:shadow-2xl">
-        {/* 顶部装饰线 */}
-        <div className="w-20 h-1 rounded-full mb-8 mx-auto bg-primary"></div>
+
 
         {/* 标题 */}
-        <h1 className="text-[clamp(2rem,5vw,3.5rem)] font-bold text-center mb-6 bg-gradient-to-r from-primary to-accent text-transparent bg-clip-text">
+        <h1 className="text-[clamp(2rem,5vw,3.5rem)] font-bold text-center mb-6 bg-primary text-transparent bg-clip-text">
           公司理念
         </h1>
 
+        {/* 顶部装饰线 */}
+        <div className="w-20 h-1 rounded-full mb-8 mx-auto bg-primary"></div>
+
         {/* 装饰分隔线 */}
-        <Divider />
+        {/* <Divider /> */}
 
         {/* 理念内容 */}
         <div className="space-y-8">
@@ -113,8 +116,8 @@ const Contact: React.FC = () => (
               <div className="bg-neutral-light p-6 rounded-lg hover:shadow-lg hover:-translate-y-1 transition-all duration-300">
                 <div className="flex items-start">
                   <div className="bg-primary/10 p-3 rounded-full mr-4">
-                    <i className="fa fa-calendar text-primary text-xl"></i>
-                    <FontAwesomeIcon icon={faCalendarAlt} />
+                    {/* <i className="fa fa-calendar text-primary text-xl"></i> */}
+                    <FontAwesomeIcon icon={faBuilding} />
                   </div>
                   <div>
                     <h3 className="text-xl font-semibold mb-2">成立背景</h3>
@@ -125,7 +128,7 @@ const Contact: React.FC = () => (
 
               <div className="bg-neutral-light p-6 rounded-lg hover:shadow-lg hover:-translate-y-1 transition-all duration-300">
                 <div className="flex items-start">
-                  <div className="bg-secondary/10 p-3 rounded-full mr-4">
+                  <div className="bg-accent/10 p-3 rounded-full mr-4">
                     {/* <i className="fa fa-users text-secondary text-xl"></i> */}
                     <FontAwesomeIcon icon={faUsersBetweenLines} />
                   </div>
@@ -140,7 +143,7 @@ const Contact: React.FC = () => (
                 <div className="flex items-start">
                   <div className="bg-accent/10 p-3 rounded-full mr-4">
                     {/* <i className="fa fa-book text-accent text-xl"></i> */}
-                    <FontAwesomeIcon icon={faBookMedical} />
+                    <FontAwesomeIcon icon={faPeopleRoof} />
                   </div>
                   <div>
                     <h3 className="text-xl font-semibold mb-2">专业团队</h3>

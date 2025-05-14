@@ -68,10 +68,6 @@ const ServicesSection = () => {
                                             </li>
                                         ))}
                                     </ul>
-                                    {/* <a href="#" className="text-primary font-medium hover:text-primary/80 inline-flex items-center">
-                                        了解详情
-                                        <i className="fa fa-arrow-right ml-2"></i>
-                                    </a> */}
                                 </div>
                             </div>
                         ))}

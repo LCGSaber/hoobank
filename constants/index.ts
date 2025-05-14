@@ -15,7 +15,7 @@ export const navLinks = [
     },
     {
         id: "recommend",
-        title: "香港名校推荐",
+        title: "案例分享",
     },
     {
         id: "contact",
