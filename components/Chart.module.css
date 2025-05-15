@@ -3,32 +3,53 @@
     flex-direction: column;
     align-items: center;
     margin: 2rem; /* 增加边距 */
+    @media (max-width: 768px) {
+      margin: 0.5rem; /* 增加边距 */
+    }
   }
   
   .chartWrapper {
     position: relative;
     width: 10rem; /* 增大图表尺寸 */
     height: 10rem;
+    @media (max-width: 768px) {
+      width: 6rem; /* 增大图表尺寸 */
+      height: 6rem;
+    }
   }
   
   .percentText {
     font-size: 1.8rem; /* 增大字体 */
     font-weight: bold;
+    @media (max-width: 768px) {
+      font-size: 1rem; /* 增大字体 */
+    }
   }
   
   .labels {
     margin-top: 1rem;
     text-align: center;
+    @media (max-width: 768px) {
+      margin-top: 0.5rem;
+    }
   }
   
   .label {
     font-size: 1.2rem;
     font-weight: 500;
     margin-bottom: 0.3rem;
+    @media (max-width: 768px) {
+      font-size: 1rem;
+      font-weight: 500;
+      margin-bottom: 0.1rem;
+    }
   }
   
   .subLabel {
     font-size: 0.9rem;
     color: #666;
+    @media (max-width: 768px) {
+      font-size: 0.6rem;
+    }
   }
 

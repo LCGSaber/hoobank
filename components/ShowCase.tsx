@@ -14,22 +14,20 @@ import { faAccessibleIcon } from "@fortawesome/free-brands-svg-icons";
 const Contact: React.FC = () => (
   <section id="recommend">
     <div className="main-container">
-    {/* <div className="container mx-auto px-4 sm:px-6 lg:px-8"> */}
       {/* 背景装饰元素 */}
       <BackgroundDecor />
 
       {/* 主容器 */}
-      {/* <div className="container mx-auto px-2 py-4 relative z-10"> */}
       <div className="max-w-5xl mx-auto bg-white/90 backdrop-blur-sm rounded-2xl shadow-xl p-4 md:p-8 border border-gray-100 transition-all duration-500 hover:shadow-2xl">
         {/* 案例分享 */}
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-16">
+          <div className="text-center mb-8">
             <h2 className="text-[clamp(1.75rem,3vw,2.5rem)] font-bold text-neutral mb-4">案例分享</h2>
-            <div className="w-20 h-1 bg-primary mx-auto mb-6"></div>
+            <div className="w-20 h-1 bg-primary mx-auto mb-3"></div>
             <p className="text-[clamp(1.75rem,3vw,2.5rem)] mx-auto">學生: CHRISTY TANG</p>
           </div>
 
-          <div className="grid md:grid-cols-2 gap-12 items-center">
+          <div className="grid md:grid-cols-1 gap-3 items-center">
             <div className="space-y-3">
               <div className="bg-neutral-light p-3 rounded-lg hover:shadow-lg hover:-translate-y-1 transition-all duration-300">
                 <div className="flex items-start">
@@ -153,15 +151,6 @@ const Contact: React.FC = () => (
               <div className="rounded-lg overflow-hidden shadow-xl">
                 <Image src={hku} alt="教育团队" className="w-full h-auto" />
               </div>
-              {/* <div className="absolute -bottom-6 -left-6 bg-white p-4 rounded-lg shadow-lg max-w-xs animate-pulse-slow">
-                <div className="flex items-center">
-                  <div className="text-primary font-bold text-3xl mr-3">7+</div>
-                  <div>
-                    <div className="text-sm text-gray-500">年教育咨询经验</div>
-                    <div className="text-sm font-medium">服务超过1000+学生</div>
-                  </div>
-                </div>
-              </div> */}
             </div>
           </div>
         </div>

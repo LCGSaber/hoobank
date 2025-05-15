@@ -5,7 +5,7 @@ const Stats: React.FC = () => (
   <section className={`${styles.flexCenter} flex-row flex-wrap sm:mb-10 mb-1`}>
 
     <div className="app-container">
-      <h1 className="app-title">数据概览</h1>
+      <h1 className="app-title font-size">數據概覽</h1>
       <div className="charts-grid">
         <Chart
           percent={70}

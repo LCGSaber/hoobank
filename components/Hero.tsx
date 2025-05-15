@@ -9,17 +9,21 @@ const Hero: React.FC = () => (
       className={`flex-1 ${styles.flexStart} flex-col xl:px-0 sm:px-16 px-6`}
     >
       <div className="flex flex-row justify-between items-center w-full">
-        <h1 className="flex-1 font-poppins font-semibold ss:text-[72px] text-[52px] text-black ss:leading-[100px] leading-[75px]">
+        <h1 className="flex-1 font-poppins font-semibold ss:text-[72px] font-size text-black ss:leading-[100px] leading-[75px]">
         ORTHODOX <a className="text-special">EDUCATION</a> <br className="sm:block hidden" />{" "}
-          <span className="text-special">正心 教育</span>{" "}
+          {/* <span className="text-special">正心 教育</span>{" "} */}
         </h1>
+        
       </div>
-      <h1 className="w-full font-poppins font-semibold ss:text-[68px] text-[52px] text-black ss:leading-[100px] leading-[75px]">
+      <h1 className="w-full font-poppins font-semibold ss:text-[68px] font-size text-black ss:leading-[100px] leading-[75px]">
+      <a className="text-special">正心 教育</a>
+      </h1>
+      <h1 className="w-full font-poppins font-semibold ss:text-[68px] font-size text-black ss:leading-[100px] leading-[75px]">
       欲修其身者 <a className="text-special">先正其心</a>
       </h1>
-      <p className={`${styles.paragraph} max-w-[470px]`}>
+      {/* <p className={`${styles.paragraph} max-w-[470px]`}>
       Start Being Your Academic Companion Since 2016
-      </p>
+      </p> */}
     </div>
   </section>
 );

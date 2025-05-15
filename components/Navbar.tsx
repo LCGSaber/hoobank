@@ -8,7 +8,7 @@ const Navbar: React.FC = () => {
   const [toggle, setToggle] = useState(false);
   return (
     <nav className="w-full flex py-6 justify-between items-center navbar">
-      <Image src={zxlogos} alt="HooBank" width={200} height={60} />
+      <Image src={zxlogos} alt="HooBank" width={200} height={60} className='logo-size'/>
       <ul className="list-none sm:flex hidden justify-end items-center flex-1">
         {navLinks.map((nav, index) => (
           <li

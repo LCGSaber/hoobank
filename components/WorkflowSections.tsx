@@ -1,6 +1,7 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBook, faCheck, faGraduationCap, faHandshake, faRocket, faUniversity } from '@fortawesome/free-solid-svg-icons'
+import { useState } from 'react';
 
 const WorkflowSection = () => {
     const workflowSteps = [
@@ -70,6 +71,7 @@ const WorkflowSection = () => {
             ]
         }
     ];
+    const [toggle, setToggle] = useState(false);
 
     return (
         <section id="workflow">
@@ -101,7 +103,6 @@ const WorkflowSection = () => {
                                                 </div>
                                                 <div className="absolute left-1/2 transform -translate-x-1/2 z-10">
                                                     <div className={`w-12 h-12 rounded-full ${step.iconBg} text-white flex items-center justify-center shadow-lg`}>
-                                                        {/* <i className={`fa ${step.icon} text-xl`}></i> */}
                                                         <FontAwesomeIcon icon= {step.icon} className='text-xl'/>
                                                     </div>
                                                 </div>

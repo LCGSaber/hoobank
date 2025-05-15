@@ -167,6 +167,10 @@ text-fill-color: transparent;
   .charts-grid {
     grid-template-columns: 1fr 1fr;
   }
+  .app-container {
+    padding: 1rem 2rem; /* 增加左右内边距 */
+  }
+  
 }
 
 @media (max-width: 480px) {
@@ -201,4 +205,11 @@ text-fill-color: transparent;
   0% { transform: translateY(0px); }
   50% { transform: translateY(-15px); }
   100% { transform: translateY(0px); }
+}
+
+.font-size{
+  font-size: 52px;
+  @media (max-width: 768px) {
+    font-size: 36px;
+  }
 }
