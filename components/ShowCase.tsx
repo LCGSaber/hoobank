@@ -27,9 +27,9 @@ const Contact: React.FC = () => (
             <p className="text-[clamp(1.75rem,3vw,2.5rem)] mx-auto">學生: CHRISTY TANG</p>
           </div>
 
-          <div className="grid md:grid-cols-1 gap-3 items-center">
+          <div className="grid md:grid-cols-2 gap-2 items-center">
             <div className="space-y-3">
-              <div className="bg-neutral-light p-3 rounded-lg hover:shadow-lg hover:-translate-y-1 transition-all duration-300">
+              <div className="bg-neutral-light p-1 rounded-lg hover:shadow-lg hover:-translate-y-1 transition-all duration-300">
                 <div className="flex items-start">
                   <div className="bg-primary/10 p-3 rounded-full mr-4">
                     <i className="fa fa-calendar text-primary text-xl"></i>
@@ -42,7 +42,7 @@ const Contact: React.FC = () => (
                 </div>
               </div>
 
-              <div className="bg-neutral-light p-3 rounded-lg hover:shadow-lg hover:-translate-y-1 transition-all duration-300">
+              <div className="bg-neutral-light p-1 rounded-lg hover:shadow-lg hover:-translate-y-1 transition-all duration-300">
                 <div className="flex items-start">
                   <div className="bg-accent/10 p-3 rounded-full mr-4">
                     {/* <i className="fa fa-users text-secondary text-xl"></i> */}
@@ -55,7 +55,7 @@ const Contact: React.FC = () => (
                 </div>
               </div>
 
-              <div className="bg-neutral-light p-3 rounded-lg hover:shadow-lg hover:-translate-y-1 transition-all duration-300">
+              <div className="bg-neutral-light p-1 rounded-lg hover:shadow-lg hover:-translate-y-1 transition-all duration-300">
                 <div className="flex items-start">
                   <div className="bg-accent/10 p-3 rounded-full mr-4">
                     {/* <i className="fa fa-book text-accent text-xl"></i> */}
@@ -67,7 +67,7 @@ const Contact: React.FC = () => (
                   </div>
                 </div>
               </div>
-              <div className="bg-neutral-light p-3 rounded-lg hover:shadow-lg hover:-translate-y-1 transition-all duration-300">
+              <div className="bg-neutral-light p-1 rounded-lg hover:shadow-lg hover:-translate-y-1 transition-all duration-300">
                 <div className="flex items-start">
                   <div className="bg-accent/10 p-3 rounded-full mr-4">
                     {/* <i className="fa fa-book text-accent text-xl"></i> */}
@@ -83,30 +83,21 @@ const Contact: React.FC = () => (
 
             <div className="relative">
               <div className="rounded-lg overflow-hidden shadow-xl">
-                <Image src={hanji} alt="教育团队" className="w-full h-max-[100px]" />
+                <Image src={hanji} alt="教育团队" className="w-full h-max-[100px] hanji-logo" />
               </div>
-              {/* <div className="absolute -bottom-6 -left-6 bg-white p-4 rounded-lg shadow-lg max-w-xs animate-pulse-slow">
-                <div className="flex items-center">
-                  <div className="text-primary font-bold text-3xl mr-3">7+</div>
-                  <div>
-                    <div className="text-sm text-gray-500">年教育咨询经验</div>
-                    <div className="text-sm font-medium">服务超过1000+学生</div>
-                  </div>
-                </div>
-              </div> */}
             </div>
           </div>
         </div>
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-16">
+          <div className="text-center mb-8">
             {/* <h2 className="text-[clamp(1.75rem,3vw,2.5rem)] font-bold text-neutral mb-4"></h2> */}
             {/* <div className="w-20 h-1 bg-primary mx-auto mb-6"></div> */}
             <p className="text-[clamp(1.75rem,3vw,2.5rem)] mx-auto mt-6">學生: LEAH LEUNG</p>
           </div>
 
-          <div className="grid md:grid-cols-2 gap-12 items-center">
+          <div className="grid md:grid-cols-2 gap-6 items-center">
             <div className="space-y-3">
-              <div className="bg-neutral-light p-3 rounded-lg hover:shadow-lg hover:-translate-y-1 transition-all duration-300">
+              <div className="bg-neutral-light p-1 rounded-lg hover:shadow-lg hover:-translate-y-1 transition-all duration-300">
                 <div className="flex items-start">
                   <div className="bg-primary/10 p-3 rounded-full mr-4">
                     <i className="fa fa-calendar text-primary text-xl"></i>
@@ -119,7 +110,7 @@ const Contact: React.FC = () => (
                 </div>
               </div>
 
-              <div className="bg-neutral-light p-3 rounded-lg hover:shadow-lg hover:-translate-y-1 transition-all duration-300">
+              <div className="bg-neutral-light p-1 rounded-lg hover:shadow-lg hover:-translate-y-1 transition-all duration-300">
                 <div className="flex items-start">
                   <div className="bg-accent/10 p-3 rounded-full mr-4">
                     {/* <i className="fa fa-users text-secondary text-xl"></i> */}
@@ -132,7 +123,7 @@ const Contact: React.FC = () => (
                 </div>
               </div>
 
-              <div className="bg-neutral-light p-3 rounded-lg hover:shadow-lg hover:-translate-y-1 transition-all duration-300">
+              <div className="bg-neutral-light p-1 rounded-lg hover:shadow-lg hover:-translate-y-1 transition-all duration-300">
                 <div className="flex items-start">
                   <div className="bg-accent/10 p-3 rounded-full mr-4">
                     {/* <i className="fa fa-book text-accent text-xl"></i> */}

@@ -43,8 +43,8 @@ const ServicesSection = () => {
     return (
         <section id="apply" className="">
             <div className="main-container">
-                <div className="max-w-5xl mx-auto bg-white/90 backdrop-blur-sm rounded-2xl shadow-xl p-4 md:p-8 border border-gray-100 transition-all duration-500 hover:shadow-2xl">
-                    <div className="text-center mb-16">
+                <div className="max-w-5xl mx-auto bg-white/90 backdrop-blur-sm rounded-2xl shadow-xl p-2 md:p-4 border border-gray-100 transition-all duration-500 hover:shadow-2xl">
+                    <div className="text-center mb-8">
                         <h2 className="text-[clamp(1.75rem,3vw,2.5rem)] font-bold text-neutral mb-4">服务项目</h2>
                         <div className="w-20 h-1 bg-primary mx-auto mb-6"></div>
                         <p className="text-gray-600 max-w-3xl mx-auto">我们提供全方位的教育咨询服务，满足学生和家长的不同需求</p>

@@ -75,7 +75,7 @@ const WorkflowSection = () => {
 
     return (
         <section id="workflow">
-            <div className="main-container">
+            <div className={`main-container ${toggle ? 'flex' : 'hidden'}`}>
                 <div className="max-w-5xl mx-auto bg-white/90 backdrop-blur-sm rounded-2xl shadow-xl p-4 md:p-8 border border-gray-100 transition-all duration-500 hover:shadow-2xl">
                     <div className="text-center mb-16">
                         <h2 className="text-[clamp(1.75rem,3vw,2.5rem)] font-bold text-neutral mb-4">合作流程</h2>
