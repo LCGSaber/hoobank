@@ -4,7 +4,7 @@ import GetStarted from "./GetStarted";
 import Image from "next/image";
 
 const Hero: React.FC = () => (
-  <section id="home" className={`flex md:flex-row flex-col sm:py-4 py-1`}>
+  <section id="home" className={`flex md:flex-row flex-col mt-16 sm:py-4 py-1`}>
     <div
       className={`flex-1 ${styles.flexStart} flex-col xl:px-0 sm:px-16 px-6`}
     >
