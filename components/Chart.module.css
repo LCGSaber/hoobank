@@ -13,8 +13,8 @@
     width: 10rem; /* 增大图表尺寸 */
     height: 10rem;
     @media (max-width: 768px) {
-      width: 6rem; /* 增大图表尺寸 */
-      height: 6rem;
+      width: 5rem; /* 增大图表尺寸 */
+      height: 5rem;
     }
   }
   
@@ -22,7 +22,7 @@
     font-size: 1.8rem; /* 增大字体 */
     font-weight: bold;
     @media (max-width: 768px) {
-      font-size: 1rem; /* 增大字体 */
+      font-size: 0.9rem; /* 增大字体 */
     }
   }
   
@@ -39,7 +39,7 @@
     font-weight: 500;
     margin-bottom: 0.3rem;
     @media (max-width: 768px) {
-      font-size: 1rem;
+      font-size: 0.8rem;
       font-weight: 500;
       margin-bottom: 0.1rem;
     }

@@ -23,13 +23,13 @@ const Navbar: React.FC = () => {
       <div className="sm:hidden flex flex-1 justify-end items-center">
         <Image src={toggle ? close : menu}
           alt="menu"
-          className="object-contain bg-black"
+          className="object-contain bg-primary"
           width={28}
           height={28}
           onClick={() => setToggle((prev) => !prev)} />
         <div className={`${toggle ? 'flex' : 'hidden'}
-            p-6 bg-black-gradient absolute top-20 ring-0 mx-4 my-2 min-w-[140px] rounded-xl sidebar`}>
-          <ul className="list-none flex flex-col justify-end items-center flex-1 bg-white">
+            p-6 bg-primary absolute top-20 ring-0 mx-4 my-2 min-w-[140px] rounded-xl sidebar`}>
+          <ul className="list-none flex flex-col justify-end items-center flex-1">
             {navLinks.map((nav, index) => (
               <li
                 key={nav.id}
