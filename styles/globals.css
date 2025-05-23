@@ -213,3 +213,13 @@ text-fill-color: transparent;
     font-size: 36px;
   }
 }
+
+@layer utilities {
+  .content-auto {
+    content-visibility: auto;
+  }
+  
+  .scroll-target {
+    scroll-margin-top: 4rem; /* 导航栏高度 + 额外间距 */
+  }
+} 

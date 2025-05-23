@@ -4,11 +4,14 @@ import { Navbar, Hero, Stats, ServiceSection, WorkflowSections, Business, Billin
 const Home: React.FC = () => {
   return (
     <>
-      <div className="bg-all w-full overflow-hidden">
+      {/* <div className="bg-all w-full overflow-hidden"> */}
+      {/* 留出导航栏高度的顶部空间 */}
+      <div className="h-16"></div>
+      <div className="bg-all w-full">
         <div className={`${styles.paddingX} ${styles.flexCenter}`}>
-        <div className={`${styles.boxWidth}`}>
-          <Navbar />
-        </div>
+          <div className={`${styles.boxWidth}`}>
+            <Navbar />
+          </div>
         </div>
         <div className={`bg-all ${styles.flexStart}`}>
           <div className={`${styles.boxWidth}`}>
